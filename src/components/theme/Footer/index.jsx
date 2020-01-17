@@ -12,6 +12,7 @@ export const Footer = () => (
 					© All rights are reserved {new Date().getFullYear()} 
 				</span>
 			</Details>
+			
 			<Links>
 				{/* {social.map(({ id, name, link, icon }) => (
 					<a
