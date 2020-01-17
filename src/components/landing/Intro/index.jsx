@@ -10,8 +10,8 @@ export const Intro = () => (
 		<Header />
 		<IntroWrapper as={Container}>
 			<Details>
-				<h1>Hi There!</h1>
-				<h4>I’m Yazan  and I’m Full Stack Python Developer!</h4>
+				<h1>Yazan Al Monshed</h1>
+				<h4> Full Stack Python / Django Developer</h4>
 				<Button as={AnchorLink} href="#contact">
 					Contact	Me
 				</Button>
