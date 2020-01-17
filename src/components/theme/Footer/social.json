@@ -1,44 +1,37 @@
 [
   {
     "id": 0,
-    "name": "Telegram",
-    "link": "https://t.me/smakosh",
-    "icon": "/icons/telegram.svg"
+    "name": "Facebook",
+    "link": "https://www.facebook.com/profile.php?id=100011284960911",
+    "icon": "/icons/facebook.svg",
+    "title": "facebook"
   },
   {
     "id": 1,
     "name": "Github",
-    "link": "https://github.com/smakosh",
-    "icon": "/icons/github.svg"
+    "link": "https://github.com/YazanALMonshed",
+    "icon": "/icons/github.svg",
+    "title": "github"
   },
   {
     "id": 2,
-    "name": "StackOverflow",
-    "link": "https://stackoverflow.com/users/story/7396786",
-    "icon": "/icons/stackoverflow.svg"
+    "name": "Goodreads",
+    "link": "https://www.goodreads.com/user/show/70631180-yazan-al-monshed",
+    "icon": "/icons/goodreads.svg",
+    "title": "goodreads"
   },
   {
     "id": 3,
     "name": "Twitter",
-    "link": "https://twitter.com/smakosh",
-    "icon": "/icons/twitter.svg"
+    "link": "https://twitter.com/YAZANMONSHED?lang=ar",
+    "icon": "/icons/twitter.svg",
+    "title": "twitter"
   },
   {
     "id": 4,
-    "name": "Goodreads",
-    "link": "https://goodreads.com",
-    "icon": "/icons/goodreads.svg"
-  },
-  {
-    "id": 5,
-    "name": "Twitter",
-    "link": "https://twitter.com/",
-    "icon": "/icons/twitter.svg"
-  },
-  {
-    "id": 6,
-    "name": "Twitter",
-    "link": "https://twitter.com/",
-    "icon": "/icons/twitter.svg"
+    "name": "linkedin",
+    "link": "https://www.linkedin.com/in/yazan-al-monshed-52b65215a/",
+    "icon": "/icons/linkedin.svg",
+    "title": "linkedin"
   }
 ]
