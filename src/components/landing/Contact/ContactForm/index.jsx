@@ -13,6 +13,7 @@ const ContactForm = ({
 	errors,
 	touched,
 }) => (
+
 	<Form
 		name="portfolio-dev"
 		method="post"
