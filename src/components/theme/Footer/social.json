@@ -1,10 +1,10 @@
 [
   {
     "id": 0,
-    "name": "Facebook",
-    "link": "https://www.facebook.com/profile.php?id=100011284960911",
-    "icon": "/icons/facebook.svg",
-    "title": "facebook"
+    "name": "Medium",
+    "link": "https://medium.com/@YazanAlMonshed",
+    "icon": "/icons/medium.svg",
+    "title": "Medium"
   },
   {
     "id": 1,
@@ -33,5 +33,12 @@
     "link": "https://www.linkedin.com/in/yazan-al-monshed-52b65215a/",
     "icon": "/icons/linkedin.svg",
     "title": "linkedin"
+  },
+  {
+    "id": 5,
+    "name": "Facebook",
+    "link": "https://www.facebook.com/profile.php?id=100011284960911",
+    "icon": "/icons/facebook.svg",
+    "title": "facebook"
   }
 ]
