@@ -9,6 +9,8 @@ module.exports = {
     twitter: 'https://twitter.com/YAZANMONSHED?lang=ar',
     github: 'https://github.com/YazanALMonshed',
     linkedin: 'https://www.linkedin.com/in/yazan-al-monshed-52b65215a/',
+    goodreads: 'https://www.goodreads.com/user/show/70631180-yazan-al-monshed',
+
     
   },
   googleAnalyticsID: 'UA-88875900-4',
