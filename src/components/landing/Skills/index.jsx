@@ -14,7 +14,7 @@ export const Skills = () => (
         <h1>About Me</h1>
         <p>
         I’ve long been interested in software development and design, and always enjoy learning about new and exciting technologies.
-        my experience in Django/Python and JavaScript & libraries like ReactJs, and Bash.
+        my experience in Django/Python and JavaScript & libraries like ReactJs, and  Bash. I love open source software especially GNU Linux, my favorite distribution of fedora
         </p>
         <p>Also interested in machine learning, algorithmes, linear algebra</p>
         <Button as={AnchorLink} href="#contact">
