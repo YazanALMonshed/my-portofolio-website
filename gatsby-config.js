@@ -15,20 +15,18 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-   // Here problem
-
-    // {
-    //   resolve: 'gatsby-source-graphql',
-    //   options: {
-    //     typeName: 'GitHub',
-    //     fieldName: 'github',
-    //     url: 'https://api.github.com/graphql',
-    //     headers: {
-    //       Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
-    //     },
-    //     fetchOptions: {},
-    //   },
-    // },
+    {
+      resolve: 'gatsby-source-graphql',
+      options: {
+        typeName: 'GitHub',
+        fieldName: 'github',
+        url: 'https://api.github.com/graphql',
+        headers: {
+          Authorization: `bearer ${process.env.GITHUB_TOKEN=`22b45dc901cffe865610a4e616ba4e87f7091fdb`}`,
+        },
+        fetchOptions: {},
+      },
+    },
     {
       resolve: 'gatsby-plugin-nprogress',
       options: {

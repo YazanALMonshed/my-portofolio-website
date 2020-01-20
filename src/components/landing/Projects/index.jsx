@@ -1,49 +1,47 @@
 import React from 'react'
-// import { useStaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql } from 'gatsby'
 import { Container, Card } from 'components/common'
-// import starIcon from 'assets/icons/star.svg'
-// import forkIcon from 'assets/icons/fork.svg'
+import starIcon from 'assets/icons/star.svg'
+import forkIcon from 'assets/icons/fork.svg'
 import { Wrapper, Grid, Item, Content, Stats } from './styles'
 
 export const Projects = () => {
-  // const {
-  //   github: {
-  //     viewer: {
-  //       repositories: { edges },
-  //     },
-  //   },
-  // } = useStaticQuery(
-  //   graphql`
-  //     {
-  //       github {
-  //         viewer {
-  //           repositories(
-  //             first: 8
-  //             orderBy: { field: STARGAZERS, direction: DESC }
-  //           ) {
-  //             edges {
-  //               node {
-  //                 id
-  //                 name
-  //                 url
-  //                 description
-  //                 stargazers {
-  //                   totalCount
-  //                 }
-  //                 forkCount
-  //               }
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  //   `
-  // )
+  const {
+    github: {
+      viewer: {
+        repositories: { edges },
+      },
+    },
+  } = useStaticQuery(
+    graphql`
+      {
+        github {
+          viewer {
+            repositories(
+              first: 9
+              orderBy: { field: STARGAZERS, direction: DESC }
+            ) {
+              edges {
+                node {
+                  id
+                  name
+                  url
+                  description
+                  stargazers {
+                    totalCount
+                  }
+                  forkCount
+                }
+              }
+            }
+          }
+        }
+      }
+    `
+  )
   return (
     <Wrapper as={Container} id="projects">
        <h1>Projects</h1>
-
-{/* 
       <Grid>
         {edges.map(({ node }) => (
           <Item
@@ -71,7 +69,7 @@ export const Projects = () => {
             </Card>
           </Item>
         ))}
-      </Grid>  */}
+      </Grid>  
     </Wrapper>
   )
 }
