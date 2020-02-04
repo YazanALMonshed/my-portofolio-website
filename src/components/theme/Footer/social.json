@@ -47,5 +47,12 @@
     "link": "https://www.upwork.com/freelancers/~0194bdb421679a5ed6",
     "icon": "/icons/upwork.svg",
     "title": "upwork"
+  },
+  {
+    "id": 7,
+    "name": "kaggle",
+    "link": "https://www.kaggle.com/yazanalmonshed",
+    "icon": "/icons/kaggle.svg",
+    "title": "kaggle"
   }
 ]
