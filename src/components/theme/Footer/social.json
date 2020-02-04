@@ -40,5 +40,12 @@
     "link": "https://www.facebook.com/profile.php?id=100011284960911",
     "icon": "/icons/facebook.svg",
     "title": "facebook"
+  },
+  {
+    "id": 6,
+    "name": "upwork",
+    "link": "https://www.upwork.com/freelancers/~0194bdb421679a5ed6",
+    "icon": "/icons/upwork.svg",
+    "title": "upwork"
   }
 ]
