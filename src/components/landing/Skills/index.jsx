@@ -1,7 +1,7 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Container, Button } from 'components/common'
-import dev from 'assets/illustrations/about.svg'
+import dev from 'assets/illustrations/about-theme-2.svg'
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles'
 
 export const Skills = () => (
