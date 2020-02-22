@@ -15,4 +15,5 @@ export const ContainerCenter = styled.div`
     font-weight: bold;
     color: #F00;
 
-`
+` 
+
