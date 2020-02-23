@@ -103,7 +103,7 @@ export default withFormik({
 				.email('Invalid email')
 				.required('Email field is required'),
 			message: Yup.string().required('Message field is required'),
-			recaptcha: Yup.string().required('Robots are not welcome yet!'),
+			recaptcha: Yup.string().required('Sorry! There is some problem. Try later!'),
 		}),
 	handleSubmit: async (
 		{ name, email, message, recaptcha },
