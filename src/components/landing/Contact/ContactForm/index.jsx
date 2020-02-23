@@ -82,7 +82,7 @@ const ContactForm = ({
 		)}
 		<Center>
 			<Button secondary type="submit" disabled={isSubmitting}>
-				send Massege
+				send Message
 			</Button>
 		</Center>
 	</Form>
