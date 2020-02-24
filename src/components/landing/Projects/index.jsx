@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import { Container, Card } from 'components/common'
+import { Container, Card, CardHover } from 'components/common'
 import starIcon from 'assets/icons/star.svg'
 import forkIcon from 'assets/icons/fork.svg'
 import { Wrapper, Grid, Item, Content, Stats } from './styles'
@@ -51,6 +51,7 @@ export const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
+          <CardHover>
             <Card>
               <Content>
                 <h4>{node.name}</h4>
@@ -67,6 +68,7 @@ export const Projects = () => {
                 </div>
               </Stats>
             </Card>
+          </CardHover>
           </Item>
         ))}
       </Grid>  
