@@ -51,12 +51,13 @@ export const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-          <CardHover>
             <Card>
+            <CardHover>
               <Content>
                 <h4>{node.name}</h4>
                 <p>{node.description}</p>
               </Content>
+              </CardHover>
               <Stats>
                 <div>
                   <img src={starIcon} alt="stars" />
@@ -68,7 +69,6 @@ export const Projects = () => {
                 </div>
               </Stats>
             </Card>
-          </CardHover>
           </Item>
         ))}
       </Grid>  

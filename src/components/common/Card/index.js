@@ -8,9 +8,9 @@ export const Card = styled.div`
 
 export const CardHover = styled.div`
   div:hover {
-    opacity: .8;
-    transition-duration: 500ms;
-    transition-timing-function: ease-out;  
+    opacity: .7;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;  
     transform: scale(0.95);
   }
 `;
