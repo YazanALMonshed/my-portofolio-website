@@ -6,10 +6,3 @@ export const Card = styled.div`
   height: 100%;
   
 `;
-
-export const warpperCard = styled.div`
-  div:hover {
-
-  }
-
-`
