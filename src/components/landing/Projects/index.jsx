@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import { Container, Card, CardHover } from 'components/common'
+import { Container, Card } from 'components/common'
 import starIcon from 'assets/icons/star.svg'
 import forkIcon from 'assets/icons/fork.svg'
 import { Wrapper, Grid, Item, Content, Stats } from './styles'
@@ -12,7 +12,7 @@ export const Projects = () => {
         repositories: { edges },
       },
     },
-  } = useStaticQuery(
+  } = useStaticQuery( 
     graphql`
       {
         github {
@@ -52,12 +52,10 @@ export const Projects = () => {
             rel="noopener noreferrer"
           >
             <Card>
-            <CardHover>
               <Content>
                 <h4>{node.name}</h4>
                 <p>{node.description}</p>
               </Content>
-              </CardHover>
               <Stats>
                 <div>
                   <img src={starIcon} alt="stars" />
