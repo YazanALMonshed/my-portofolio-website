@@ -10,7 +10,7 @@ export const Footer = () => (
 			<Details>
 				<h2>Yazan Al Monshed </h2>
 				<span>	
-					© MIT License {new Date().getFullYear()} <strong>Email:</strong> yazanmonshed@gmail.com
+					© All rights are reserved  {new Date().getFullYear()} 
 				</span>
 			</Details>
 			
