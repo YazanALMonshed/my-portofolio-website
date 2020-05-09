@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "Medium",
-    "link": "https://medium.com/@YazanAlMonshed",
+    "link": "https://medium.com/@yazanmonshed",
     "icon": "/icons/medium.svg",
     "title": "Medium"
   },
@@ -23,7 +23,7 @@
   {
     "id": 3,
     "name": "Twitter",
-    "link": "https://twitter.com/YAZANMONSHED?lang=ar",
+    "link": "https://twitter.com/yazanmonshed?lang=ar",
     "icon": "/icons/twitter.svg",
     "title": "twitter"
   },
