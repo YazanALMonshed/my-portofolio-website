@@ -6,9 +6,9 @@ module.exports = {
   legalName: 'Yazan Al Monshed',
   defaultDescription: 'Software Developer. GNU Linux User. Contributor Free & Open Source Software',
   socialLinks: {
-    twitter: 'https://twitter.com/YAZANMONSHED?lang=ar',
-    github: 'https://github.com/YazanALMonshed',
-    linkedin: 'https://www.linkedin.com/in/yazan-al-monshed-52b65215a/',
+    twitter: 'https://twitter.com/yazanmonshed',
+    github: 'https://github.com/yazanmonshed',
+    linkedin: 'https://www.linkedin.com/in/yazanmonshed',
     goodreads: 'https://www.goodreads.com/user/show/70631180-yazan-al-monshed',
 
     
