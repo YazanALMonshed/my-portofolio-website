@@ -18,7 +18,7 @@ module.exports = {
   backgroundColor: '#6b63ff',
   social: {
     facebook: 'Yzan Al Monshed',
-    twitter: '@YAZANMONSED',
+    twitter: '@yazanmonshed',
   },
   address: {
     city: 'City',
@@ -30,6 +30,6 @@ module.exports = {
     email: 'email',
     phone: 'phone number',
   },
-  foundingDate: '2018',
-  recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN',
+  foundingDate: '2020',
+  recaptcha_key: '6LeBrLIZAAAAAKgxXlqb_H6FSiaa_26xWyfJmkBm',
 };
