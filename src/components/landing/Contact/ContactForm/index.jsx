@@ -119,6 +119,7 @@ export default withFormik({
 			}
 			await fetch('/?no-cache=1', {
 				method: 'POST',
+				action: 'https://formspree.io/mlepozkz',
 				headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
 				body: encode({
 					'form-name': 'portfolio-dev',
