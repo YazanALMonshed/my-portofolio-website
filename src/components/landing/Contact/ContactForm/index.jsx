@@ -133,8 +133,8 @@ export default withFormik({
 			await setFieldValue('success', true)
 			setTimeout(() => resetForm(), 2000)
 		} catch (err) {
-			setSubmitting(true)
-			setFieldValue('success', true)
+			setSubmitting(false)
+			setFieldValue('success', false)
 			alert('Something wrong, please try again!')
 			 // eslint-disable-line
 		}
