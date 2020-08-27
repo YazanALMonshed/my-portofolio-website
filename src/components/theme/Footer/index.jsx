@@ -8,7 +8,7 @@ export const Footer = () => (
 	<Wrapper>
 		<Flex as={Container}>
 			<Details>
-				<h2>Yazan Al Monshed </h2>
+				<h2>Yazan Monshed</h2>
 				<span>	
 					© All rights are reserved  {new Date().getFullYear()} 
 				</span>
